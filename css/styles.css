@@ -1,0 +1,162 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.intro {
+    margin-top: 20px;
+} */
+
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40;
+}
+
+header a.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+header a.nav-link {
+    color: #ffffff;
+}
+
+header a.nav-link:hover {
+    color: #00ff99;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Project card specific */
+.project-card {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.skill-card, .achievement-card {
+    background-color: #ffffff;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    color: #00ff99;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Animations */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.animate__fadeInUp {
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
